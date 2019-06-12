@@ -42,7 +42,7 @@ var server = http.createServer(function (request, response) {
       '<h1>Welcome to the site</h1>' + '<a href="/cuteness">cuteness</a>' + '<p><a href="/random-joke">Random Joke</a></p>'
     )
   } else if (request.url === '/cuteness') {
-    response.end('<h1>Cuteness</h1>' + '<p><a href="/"> Go back to Home page</a></p>' + '<img src="https://i.imgur.com/VrtK5zP.jpg"></img>')
+    response.end('/views')
   } else if (request.url === '/random-joke') {
     response.end(
       '<h1>Random Joke!</h1>' +
