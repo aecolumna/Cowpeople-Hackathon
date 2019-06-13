@@ -50,11 +50,20 @@ button.my-btn-class {
 button{
     background-color: deepskyblue;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
 }
 
 button:hover{
     outline-color: blue;
     color: crimson;
+}
+
+button:active {
+    background-color: dodgerblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /* Include the padding and border in an element's total width and height */
@@ -183,4 +192,8 @@ hr{
     border-color: black;
     border-width: 1px 0 0 0;
     border-radius: 20px;
+}
+
+textarea {
+    overflow: auto;
 }

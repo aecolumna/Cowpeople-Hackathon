@@ -1,6 +1,8 @@
+
+
+
 var express = require('express')
 var app = express()
-
 
 app.use(express.static('public'))
 app.set('view engine', 'ejs')
@@ -11,6 +13,16 @@ app.get('/', function (request, response) {
 })
 
 app.listen(port)
+
+console.log('Server running at http://localhost:' + port + '/')
+
+
+// app.get('/', function (request, response) {
+//   response.render('pages/index', {
+//     articles: articles
+//   })
+// })
+
 
 //// Require Node's http module and assign it to a variable
 //var http = require('http')

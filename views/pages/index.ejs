@@ -5,9 +5,9 @@
     <title>Michaels Scripts Generator </title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
 </head>
 <body background="https://assets.awwwards.com/awards/images/2015/04/pattern.jpg">
 
@@ -18,6 +18,17 @@
 <div class="row">
     <div class="six columns">
         <!-- place drop down menus here -->
+        <div class="item">
+            <label> Script Number
+                <select id="my-select" class="u-full-width">
+                    <option value="first">1</option>
+                    <option value="second">2</option>
+                    <option value="third">3</option>
+                    <option value="fourth">4</option>
+                    <option value="fifth">5</option>
+                </select>
+            </label>
+        </div>
         <div class="item">
             <label> Tower
                 <select class="u-full-width">
@@ -65,13 +76,13 @@
     </div>
     <div class="six columns">
         <label> Base Query Display </label>
-        <textarea id='textarea' rows="10"> </textarea>
+        <textarea id='textarea1' rows="10"> </textarea>
     </div>
 
 
 </div>
 
-<button type="button" class="btn btn-primary my-btn-class">Display Base Query</button>
+<button id="display-base-query" type="button" class="btn btn-primary my-btn-class">Display Base Query</button>
 
 <hr>
 <div class="row">
@@ -100,8 +111,26 @@
         <div id="joke-box"></div>
     </div>
     <div class="two">
-        <button type="button" class="btn btn-primary">Download Script</button>
-        <button type="button" class="btn btn-primary">Create RFC</button>
+
+        <div>
+            <button type="button" class="btn btn-primary">Download Script</button>
+
+            <a id="rfc-anchor" href="https://michaelstest.service-now.com/navpage.do">
+                <button id="rfc" type="button" class="btn btn-primary">Create RFC</button>
+            </a>
+
+            <div class="container">
+                <form class="w3-container">
+
+                    <button id="change-link" type="button" class="btn btn-primary">Change RFC Link</button>
+                    <input id="link-box" class="w3-input w3-border" type="text">
+
+
+                </form>
+            </div>
+        </div>
+
+
     </div>
 
 </div>
