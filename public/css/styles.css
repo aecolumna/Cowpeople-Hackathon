@@ -43,8 +43,12 @@ label:hover{
     font-size: 18px;
 }
 
+button.my-btn-class {
+    background-color: deepskyblue;
+}
+
 button{
-    background-color:deepskyblue
+    background-color: deepskyblue;
 }
 
 button:hover{
