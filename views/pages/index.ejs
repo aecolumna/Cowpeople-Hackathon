@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Michaels Scripts Generator </title>
+
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet">
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+</head>
+<body background="https://assets.awwwards.com/awards/images/2015/04/pattern.jpg">
+
+<img id="michaels-logo" class="img-fluid" alt="Responsive image"
+     src="https://www.mdgllc.net/wp-content/uploads/2018/11/michaels-logo.png">
+<h1>Scripts Generator</h1>
+
+<div class="row">
+    <div class="six columns">
+        <!-- place drop down menus here -->
+        <div class="item">
+            <label> Tower
+                <select class="u-full-width">
+                    <option value="AO">AO</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="item">
+            <label> Application
+                <select class="u-full-width">
+                    <option value="volvo">Update</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="item">
+            <label> Functionality
+                <select class="u-full-width">
+                    <option value="volvo">Delete</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="item">
+            <label> Base Script
+                <select class="u-full-width">
+                    <option value="volvo">Darlene</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </label>
+        </div>
+
+    </div>
+    <div class="six columns">
+        <label> Base Query Display </label>
+        <textarea id='textarea' rows="10"> </textarea>
+    </div>
+
+
+</div>
+
+<button type="button" class="btn btn-primary">Display Base Query</button>
+
+<hr>
+<div class="row">
+    <div class="six columns">
+
+        <div id="myDIV" class="header">
+            <h2>Add Input Parameters </h2>
+            <input type="text" id="myInput" placeholder="input parameter...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+
+        </div>
+        <ul id="myUL">
+            <li>Dallas</li>
+            <li> January-13-2015</li>
+            <li> Accenture</li>
+        </ul>
+        <div>
+
+            <button type="button" class="btn btn-primary">Generate Script</button>
+        </div>
+    </div>
+
+    <div class="six columns">
+        <label> Generated Scripts </label>
+        <textarea id='textarea' rows="10"> </textarea>
+        <div id="joke-box"></div>
+    </div>
+    <div class="two">
+        <button type="button" class="btn btn-primary">Download Script</button>
+        <button type="button" class="btn btn-primary">Create RFC</button>
+    </div>
+
+</div>
+
+
+<script src="/javascript/script.js"></script>
+</body>
+</html>
+
