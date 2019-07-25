@@ -12,6 +12,18 @@ app.get('/', function (request, response) {
   response.render('pages/index')
 })
 
+app.get('/login', function (request, response) {
+  response.render('pages/login')
+})
+
+app.get('/chat', function (request, response) {
+  response.render('pages/chat')
+})
+
+app.get('/journal', function (request, response) {
+  response.render('pages/journal')
+})
+
 app.listen(port)
 
 console.log('Server running at http://localhost:' + port + '/')
