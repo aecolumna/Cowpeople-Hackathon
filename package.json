@@ -1,12 +1,12 @@
 {
+  "name": "accenture-hackathon-dallas",
+  "version": "0.0.1",
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6",
+    "aws-sdk": "latest",
     "ejs": "^2.6.1",
-    "express": "^4.17.1",
-    "gulp-sass": "^4.0.2",
-    "jquery": "^3.4.1"
+    "express": "^4.17.1"
   },
-  "devDependencies": {
-    "live-server": "^1.2.1"
+  "scripts": {
+    "start": "node server.js"
   }
 }

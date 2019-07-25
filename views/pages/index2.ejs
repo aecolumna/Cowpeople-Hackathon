@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Accenture Dallas Hackathon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div>
+    <div class="container text-center headdiv">
+        <img src="hi3.1.png" id="hi-austin">
+        <p class="jumbo-p"> Do you ever feel like an alien on planet earth? Don't! What your going through is more common than you could ever imagine! </p>
+        <p> Accenture Dallas Team: Chat with peers who feel just like you do!</p>
+    </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="chat/">Chat</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="journal/">Log Your Emotions</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login/"><span class="glyphicon glyphicon-user"></span> Log In</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container" id="top-container">
+    <div class="row">
+        <h2 class="text-center"> How are you feeling? </h2>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="stressed" class='rainbow rainbow-1'> Stressed </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 onclick="myFunction()" id="empowered" class='rainbow rainbow-5'> Empowered </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="angry" class='rainbow rainbow-3'>
+                Angry </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="joyful" class='rainbow rainbow-1'>
+                Joyful </h3>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="indifferent" class='rainbow rainbow-1'> Indifferent </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="shameful" class='rainbow rainbow-2'> Shameful </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="calm" class='rainbow rainbow-3'>
+                Calm </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="sad" class='rainbow rainbow-1'> Sad </h3>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="anxious" class='rainbow rainbow-4'> Anxious </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 class='rainbow rainbow-2'> Frustrated </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="bored" class='rainbow rainbow-3'> Bored </h3>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="panel-heading text-center letters"> <h3 id="afraid" class='rainbow rainbow-5'> Afraid </h3>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="container text-center">
+    <a href="chat/">
+        <button type="button" class="btn btn-primary btn-lg text-center"><h2 class="text-center">
+                Click here to let our algorithm match you! </h2></button>
+    </a>
+
+
+</div>
+
+<br>
+
+
+<footer class="container-fluid text-center">
+    <p>Accenture Dallas TDP Crew -- Srija, Maeve, Harin, Adrian, Andres.</p>
+    <form class="form-inline">Add yourself to our email list!
+        <input type="email" class="form-control" size="50" placeholder="Email Address">
+    </form>
+</footer>
+
+<script src="/public/javascript/script.js">
+</script>
+</body>
+</html>
