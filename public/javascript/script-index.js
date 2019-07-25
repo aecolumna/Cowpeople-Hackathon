@@ -81,6 +81,7 @@ var addrainbow = function () {
 
 my_div.addEventListener('click', addrainbow)
 
+
 var my_div = document.getElementById('frustrated')
 
 var addrainbow = function () {
@@ -88,7 +89,7 @@ var addrainbow = function () {
     my_div.classList.add("rainbow-15");
 }
 
-my_div.addEventListener('click', addrainbow)
+document.getElementById('frustrated').addEventListener('click', addrainbow);
 
 var my_div = document.getElementById('bored')
 
@@ -99,11 +100,9 @@ var addrainbow = function () {
 
 my_div.addEventListener('click', addrainbow)
 
-var my_div = document.getElementById('afraid')
-
 var addrainbow = function () {
-    var my_div = document.getElementById('afraid');
-    my_div.classList.add("rainbow-15");
+    var my_div2 = document.getElementById('afraid');
+    my_div2.classList.add("rainbow-11");
 }
 
-my_div.addEventListener('click', addrainbow)
+document.getElementById('afraid').addEventListener('click', addrainbow);
