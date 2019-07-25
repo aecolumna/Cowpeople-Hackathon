@@ -1,0 +1,253 @@
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */
+.jumbotron {
+    margin-bottom: 0;
+}
+
+
+#hi-austin{
+    width: 250px;
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+div.headdiv{
+    background-color: rgb(198, 228, 241);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+
+}
+
+#stressed{
+    background-color: #9400D3;
+}
+
+#empowered{
+    background-color: #4B0082;
+}
+
+#angry{
+    background-color: 	#0000FF;
+}
+
+#joyful{
+    background-color:#00FF00;
+}
+
+#indifferent{
+    background-color: #FFFF00;
+}
+
+#shameful{
+    background-color: #FF7F00;
+}
+
+#calm{
+    background-color: #FF0000;
+}
+
+#sad {
+    background-color: #329fe3;
+}
+
+#anxious {
+    background-color: #187b06;
+}
+
+#bored {
+    background-color: #fc1ff0;
+}
+
+#afraid {
+    background-color: #6c132a;
+}
+p.jumbo-p{
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.emotion {
+    background-color: red;
+    width: 100%;
+}
+
+.emotion-button:hover {
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+.text-center {
+    text-align: center;
+}
+
+.rainbow{
+    background-color: #343A40;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+
+}
+
+h3:visited {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+h3:focus {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+h3:active {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+.rainbow-11{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+.rainbow-15{
+    background-image:     linear-gradient(
+            to right,
+            #E7484F,
+            #E7484F 16.65%,
+            #F68B1D 16.65%,
+            #F68B1D 33.3%,
+            #FCED00 33.3%,
+            #FCED00 49.95%,
+            #009E4F 49.95%,
+            #009E4F 66.6%,
+            #00AAC3 66.6%,
+            #00AAC3 83.25%,
+            #732982 83.25%,
+            #732982 100%,
+            #E7484F 100%
+    );
+    animation:slidebg 2s linear infinite;
+}
+
+.rainbow-1:visited{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+.rainbow-1:checked{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+.rainbow-1:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+.rainbow-2:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    animation:slidebg 2s linear infinite;
+}
+
+.rainbow-3:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 2s linear infinite;
+}
+
+.rainbow-4:hover{
+    background-image:     linear-gradient(
+            to right,
+            #E7484F,
+            #F68B1D,
+            #FCED00,
+            #009E4F,
+            #00AAC3,
+            #732982
+    );
+    animation:slidebg 2s linear infinite;
+}
+
+
+.rainbow-5:hover{
+    background-image:     linear-gradient(
+            to right,
+            #E7484F,
+            #E7484F 16.65%,
+            #F68B1D 16.65%,
+            #F68B1D 33.3%,
+            #FCED00 33.3%,
+            #FCED00 49.95%,
+            #009E4F 49.95%,
+            #009E4F 66.6%,
+            #00AAC3 66.6%,
+            #00AAC3 83.25%,
+            #732982 83.25%,
+            #732982 100%,
+            #E7484F 100%
+
+
+
+    );
+    animation:slidebg 2s linear infinite;
+}
+
+
+@keyframes slidebg {
+    to {
+        background-position:20vw;
+    }
+}
+
+.follow{
+    margin-top: 40px;
+}
+
+.follow a{
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.panel{
+    padding: 0;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#top-container{
+    margin-top: 0;
+}
+
+h3:hover{
+    font-size: 2em;
+}
+
+
